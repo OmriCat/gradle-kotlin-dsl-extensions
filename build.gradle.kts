@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.omricat"
-version = computeVersionFromHg()
+version = "0.1.2"
 
 repositories {
   mavenCentral()
