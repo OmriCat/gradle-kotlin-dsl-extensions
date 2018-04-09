@@ -12,6 +12,10 @@ As there is no plugin, it's enough to add this to your `buildscript` dependencie
 
 ```gradle
 buildscript {
+    repositories {
+        maven("https://jitpack.io")
+    }
+
     dependencies {
         classpath("com.github.omricat:gradle-kotlin-dsl-extensions:latest.version")
     }
